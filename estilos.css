@@ -1,0 +1,105 @@
+header{
+    height: 80px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.cuki{
+    padding-left: 10px;
+}
+
+.nav{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;    
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.item{
+     font-size: 18px;
+     margin: 0  10px;
+     padding: 10px;
+     
+}
+
+.nav ul{ 
+   height:50px; 
+   justify-content: flex-end;
+   display: flex;
+   list-style: none;
+   
+ }
+
+.nav ul li a{       
+    text-decoration: none;     
+    color:black;
+    text-align: left;
+    padding: 50px 25px ;
+
+}
+
+.info{
+    text-align: center;   
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info__texto{
+      color: red;
+
+}
+
+.subtitulo{
+        text-align: center;
+        padding-top: 30px;
+        
+}
+
+.servicios ul{
+    display: flex;
+    list-style: none;
+    flex-direction: center;  
+    justify-content: center;  
+}
+
+
+.servicios ul li{
+    padding: 50px; 
+}
+
+.servicios ul li img{
+    width: 300px;
+    height: 200px;    
+}
+
+.servicios ul li p{     
+    width: 300px;
+}
+
+.contacto ul{
+    list-style: none;   
+    display: flex;    
+    flex-direction: center;  
+    justify-content: center; 
+}
+
+.contacto ul li{
+    padding: 8px;    
+}
+
+
+
+.contacto ul li img{
+    width: 35px;
+    height: 30px; 
+}
+
+
